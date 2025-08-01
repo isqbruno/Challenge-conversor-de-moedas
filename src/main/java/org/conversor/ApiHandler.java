@@ -8,7 +8,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ApiHandler {
-    private final String apiKey = "b2a58a0a9e7d05e9762fe888";
+    private final String apiKey = " ";
 
     public ApiResponse getConversion(String baseCurrency, String targetCurrency, double amount) {
         // Monta o endereço da requisição da API
